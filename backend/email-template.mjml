@@ -1,0 +1,26 @@
+    <mjml>
+      <mj-body>
+        <mj-section>
+          <mj-column>
+            <mj-text font-size="20px" font-family="Helvetica Neue" color="#626262" align ="center">
+              Contact Information
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section background-color="#f0f0f0" padding="20px">
+          <mj-column>
+            <mj-text font-size="18px" font-family="Helvetica Neue" color="#525252">
+              <strong>Name:</strong> {{name}}
+            </mj-text>
+            <mj-text font-size="18px" font-family="Helvetica Neue" color="#525252">
+              <strong>Email:</strong> {{email}}
+            </mj-text>
+            <mj-text font-size="18px" font-family="Helvetica Neue" color="#525252">
+              <strong>Mobile No:</strong> {{mobileNo}}
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-body>
+    </mjml>
+
+
